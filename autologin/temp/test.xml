@@ -1,0 +1,64 @@
+<form name="form1" method="post" action="frdakaji.aspx" id="form1">
+	<div>
+		<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+		<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3NjkxNDU4NzEPZBYCAgMPZBYEAgEPD2QWAh4Jb25rZXlkb3duBVtpZihldmVudC5rZXlDb2RlPT05IHx8IGV2ZW50LmtleUNvZGU9PTEzKXsgZG9jdW1lbnQuYWxsLnR4dF9QYXNzd29yZC5mb2N1cygpO3JldHVybiBmYWxzZTt9ZAIHDxYCHgRUZXh0ZWRkHdsraEhohih0PPcby0guaAAAAAA=" />
+	</div>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	var theForm = document.forms['form1'];
+	if (!theForm) {
+	    theForm = document.form1;
+	}
+	function __doPostBack(eventTarget, eventArgument) {
+	    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+	        theForm.__EVENTTARGET.value = eventTarget;
+	        theForm.__EVENTARGUMENT.value = eventArgument;
+	        theForm.submit();
+	    }
+	}
+	//]]>
+	</script>
+
+
+	<script src="/NEWHRM/WebResource.axd?d=WMCPYqAF877yYLlH4A3I8A2&amp;t=634364904789547549" type="text/javascript"></script>
+
+
+	<script src="/NEWHRM/WebResource.axd?d=Km5Vi5TZot9MQAS2Uhvm2A2&amp;t=634364904789547549" type="text/javascript"></script>
+	<div>
+		<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+		<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+		<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBAKwgrb8CgL3xJvhBAKM54rGBgLS9cL8AlWGlEyq99Su3ZHXPaZ2kG0AAAAA" />
+	</div>
+    <div class="wrap">
+        <h2 class="header">
+            上下班打卡机</h2>
+       <div class="content">
+            <div align="center" style="margin:0 auto 40px;">
+                <iframe src="time.aspx" frameborder="0" width="312"  scrolling="no" height="38"></iframe>
+                </div>
+            <table width="312" border="0" cellspacing="0" cellpadding="0" class="login">
+                <tr>
+                    <td width="70" height="30" align="right">
+                        用户名：</td>
+                    <td width="200">
+                        <input name="txt_UserName" type="text" id="txt_UserName" tabindex="1" class="login_input" onkeydown="if(event.keyCode==9 || event.keyCode==13){ document.all.txt_Password.focus();return false;}" />
+                        <td width="42" rowspan="2">
+                            <input type="submit" name="Button1" value="" id="Button1" tabindex="3" class="login_button" />
+                        </td>
+                </tr>
+                <tr>
+                    <td height="30" align="right">
+                        密&nbsp;&nbsp;&nbsp;码：</td>
+                    <td>
+                        <input name="txt_Password" type="password" id="txt_Password" tabindex="2" class="login_input" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+	<script type="text/javascript">
+	//<![CDATA[
+	WebForm_AutoFocus('txt_UserName');//]]>
+	</script>
+</form>
